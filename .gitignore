@@ -60,3 +60,55 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# --- Secrets & local config ---
+iOS/Info.plist
+.env
+.env.*
+*.pem
+
+# --- iOS / Xcode ---
+iOS/BOND101.xcodeproj/xcuserdata/
+iOS/BOND101.xcodeproj/project.xcworkspace/xcuserdata/
+iOS/*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+DerivedData/
+build/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# --- Node / web ---
+node_modules/
+dist/
+.vite/
+.vitest/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# --- Editor / IDE ---
+.cursor/
+.idea/
+*.swp
+*.swo
+*~
